@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RF_Antenna")(type "KiCad")(uri "C:/Users/choom/Downloads/RF_Antenna.pretty")(options "")(descr "")(disabled))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "//wsl.localhost/Ubuntu/home/choomek/Documents/Kicad/easyeda2kicad.pretty")(options "")(descr "")(disabled))
+  (lib (name "aaa_project")(type "KiCad")(uri "${KIPRJMOD}/aaa_projectLibrary/aaa_project.pretty")(options "")(descr ""))
+)
