@@ -9525,16 +9525,6 @@
 		)
 		(uuid "192d4eb1-4326-432d-92a0-45f87223cc48")
 	)
-	(label "JTAGI"
-		(at 369.57 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2105b91b-f745-4a92-a79c-0bcd82310d3d")
-	)
 	(label "SPI1"
 		(at 199.39 58.42 0)
 		(effects
@@ -9555,6 +9545,16 @@
 		)
 		(uuid "252ebb8a-c790-4326-9d75-1c04a4e502d6")
 	)
+	(label "JTAGI"
+		(at 369.57 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25aba966-1539-47c6-a67f-8e6c8a9e8e0f")
+	)
 	(label "SPI2"
 		(at 270.51 198.12 180)
 		(effects
@@ -9574,16 +9574,6 @@
 			(justify right bottom)
 		)
 		(uuid "2947cfa6-1831-4572-9f65-94ad6ff10bc9")
-	)
-	(label "JTAGCLK"
-		(at 369.57 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c9438ad-5bd7-4c68-a437-8bb37c99b403")
 	)
 	(label "JTAGO"
 		(at 190.5 86.36 0)
@@ -9665,16 +9655,6 @@
 		)
 		(uuid "3fbed0eb-fab0-436e-bba0-c980554da645")
 	)
-	(label "JTAGO"
-		(at 369.57 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41374866-fe5b-4379-aaee-9eee37d5c2a9")
-	)
 	(label "GPIO1"
 		(at 142.24 68.58 180)
 		(effects
@@ -9744,6 +9724,16 @@
 			(justify right bottom)
 		)
 		(uuid "4eb886fe-68f3-4d69-9d5c-a63d3a51981e")
+	)
+	(label "JTAGCLK"
+		(at 369.57 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "502cd28d-0304-43ef-ac07-723bb365738b")
 	)
 	(label "SPICLK"
 		(at 270.51 190.5 180)
@@ -9895,16 +9885,6 @@
 		)
 		(uuid "80a022c7-c577-4067-a236-3fa5dbf682d3")
 	)
-	(label "JTAGMS"
-		(at 369.57 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "821c4224-ab45-4ec6-9825-2e5e94087ef5")
-	)
 	(label "IMUData"
 		(at 312.42 53.34 0)
 		(effects
@@ -10004,6 +9984,16 @@
 			(justify right bottom)
 		)
 		(uuid "8db06e02-0e57-4fbe-975f-b9e79a26b95a")
+	)
+	(label "JTAGMS"
+		(at 369.57 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92ea3709-869b-43c7-9872-6a8e5d1a179a")
 	)
 	(label "GPIO2"
 		(at 142.24 71.12 180)
@@ -10154,6 +10144,16 @@
 			(justify left bottom)
 		)
 		(uuid "bfde4cc7-4915-4aef-aceb-46ad3d867040")
+	)
+	(label "JTAGO"
+		(at 369.57 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c693801f-fc68-482e-90f5-203858250c24")
 	)
 	(label "USB-"
 		(at 142.24 88.9 180)
