@@ -1,4 +1,4 @@
-26733866806316295
+26738729490625168
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106245,6 +106245,27 @@ LGA-14_L3.0-W2.5-P0.50-BR
 0
 14
 14
+aaa_project
+Resonator-2Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter 7.0x2.5mm^2, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+aaa_project
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+aaa_project
+Texas_SWRA117D_2.4GHz_Right
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
 aaa_project
 USB-C-SMD_TYPE-C-6PIN-2MD-073
 
