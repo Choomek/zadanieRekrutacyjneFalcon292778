@@ -1,47 +1,15 @@
 ** Drc report for zadanieRekrutacyjneFalcon292778.kicad_pcb **
-** Created on 2026-03-25T01:58:19+0100 **
+** Created on 2026-03-27T15:51:46+0100 **
 
-** Found 77 DRC violations **
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
-    Rule: netclass 'Default'; error
-    @(134.7050 mm, 92.4340 mm): Pad 2 [<no net>] of AE1 on F.Cu
-    @(132.1950 mm, 89.9840 mm): Polygon [<no net>] of AE1 on F.Cu
+** Found 81 DRC violations **
 [clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
     Rule: netclass 'Default'; error
     @(134.7050 mm, 94.5340 mm): PTH pad 1 [Net-(AE1-A)] of AE1
     @(132.1950 mm, 89.9840 mm): Polygon [<no net>] of AE1 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(177.0790 mm, 76.4420 mm): NPTH pad of SW4
-    @(176.0040 mm, 76.4920 mm): Pad 2 [/BTN2] of SW4 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(179.0290 mm, 76.4420 mm): NPTH pad of SW4
-    @(180.1040 mm, 76.4920 mm): Pad 2 [/BTN2] of SW4 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(142.2810 mm, 104.8900 mm): NPTH pad of SW1
-    @(141.2060 mm, 104.9400 mm): Pad 2 [GND] of SW1 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(144.2310 mm, 104.8900 mm): NPTH pad of SW1
-    @(145.3060 mm, 104.9400 mm): Pad 2 [GND] of SW1 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(177.0790 mm, 89.6500 mm): NPTH pad of SW3
-    @(176.0040 mm, 89.7000 mm): Pad 2 [/BTN1] of SW3 on F.Cu
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1750 mm)
-    Rule: board setup constraints hole; error
-    @(179.0290 mm, 89.6500 mm): NPTH pad of SW3
-    @(180.1040 mm, 89.7000 mm): Pad 2 [/BTN1] of SW3 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(185.8010 mm, 121.4120 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(151.2440 mm, 80.0100 mm): Pad 2 [GND] of C8 on F.Cu
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(115.0620 mm, 53.2130 mm): Rectangle on Edge.Cuts
-    @(185.6910 mm, 110.2910 mm): Segment of USB1 on F.Silkscreen
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(134.7050 mm, 92.4340 mm): Pad 2 [<no net>] of AE1 on F.Cu
+    @(132.1950 mm, 89.9840 mm): Polygon [<no net>] of AE1 on F.Cu
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(115.0620 mm, 53.2130 mm): Rectangle on Edge.Cuts
@@ -49,246 +17,240 @@
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(115.0620 mm, 53.2130 mm): Rectangle on Edge.Cuts
-    @(115.3880 mm, 82.8040 mm): Reference field of U2
-[lib_footprint_mismatch]: Footprint 'Texas_SWRA117D_2.4GHz_Right' does not match copy in library 'aaa_project'.
+    @(185.6910 mm, 110.2910 mm): Segment of USB1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'SW_SPST_CK_KMS2xxGP' does not match copy in library 'Button_Switch_SMD'.
     Local override; warning
-    @(134.7050 mm, 92.4340 mm): Footprint AE1
+    @(143.2560 mm, 104.1400 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'SW_SPST_CK_KMS2xxGP' does not match copy in library 'Button_Switch_SMD'.
+    Local override; warning
+    @(178.0540 mm, 75.6920 mm): Footprint SW4
+[lib_footprint_mismatch]: Footprint 'SW_SPST_CK_KMS2xxGP' does not match copy in library 'Button_Switch_SMD'.
+    Local override; warning
+    @(178.0540 mm, 88.9000 mm): Footprint SW3
 [lib_footprint_mismatch]: Footprint 'USB-C-SMD_TYPE-C-6PIN-2MD-073' does not match copy in library 'aaa_project'.
     Local override; warning
     @(180.7210 mm, 105.7910 mm): Footprint USB1
-[silk_over_copper]: Silkscreen clipped by solder mask
+[lib_footprint_mismatch]: Footprint 'Texas_SWRA117D_2.4GHz_Right' does not match copy in library 'aaa_project'.
     Local override; warning
-    @(174.3410 mm, 105.7910 mm): Reference field of USB1
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(185.6910 mm, 110.2910 mm): Segment of USB1 on F.Silkscreen
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(185.5410 mm, 101.2210 mm): Segment of USB1 on F.Silkscreen
+    @(134.7050 mm, 92.4340 mm): Footprint AE1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(178.0540 mm, 78.4860 mm): Reference field of SW5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(159.6390 mm, 101.2190 mm): Reference field of SW2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.2560 mm, 101.5400 mm): Reference field of SW1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(178.0540 mm, 73.0920 mm): Reference field of SW4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(178.0540 mm, 86.3000 mm): Reference field of SW3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.5384 mm, 92.1512 mm): Reference field of U3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(180.9750 mm, 100.3300 mm): Reference field of USB1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(165.4048 mm, 61.4680 mm): Reference field of U4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.7640 mm, 95.3770 mm): Reference field of D2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(155.4480 mm, 78.4860 mm): Reference field of U1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(175.8188 mm, 65.8351 mm): Reference field of C17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(175.1330 mm, 109.3470 mm): Reference field of R1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(164.4650 mm, 76.5810 mm): Reference field of R13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.9410 mm, 76.5810 mm): Reference field of R12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.1740 mm, 90.8304 mm): Reference field of C1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.3860 mm, 97.0280 mm): Reference field of R6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(152.0190 mm, 81.1530 mm): Reference field of C8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(142.7480 mm, 91.0260 mm): Reference field of L2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.1180 mm, 80.5180 mm): Reference field of D5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.8448 mm, 79.7052 mm): Reference field of AE1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(173.7360 mm, 105.0290 mm): Reference field of D6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(179.0192 mm, 61.6712 mm): Reference field of U5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(151.8920 mm, 56.7690 mm): Reference field of J6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(142.7480 mm, 85.4710 mm): Reference field of L1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(159.0040 mm, 108.0770 mm): Reference field of D1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(183.5150 mm, 88.3920 mm): Reference field of R16
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.6260 mm, 78.4860 mm): Reference field of D4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(138.3030 mm, 102.1080 mm): Reference field of R3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(158.3690 mm, 76.5810 mm): Reference field of R9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.4130 mm, 116.8400 mm): Reference field of J1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.9360 mm, 105.1560 mm): Reference field of C4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.2590 mm, 84.2010 mm): Reference field of R20
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(137.2870 mm, 68.8340 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.6260 mm, 92.2020 mm): Reference field of D3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.0050 mm, 77.9780 mm): Reference field of C5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.1180 mm, 84.9630 mm): Reference field of R18
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(168.6560 mm, 100.5840 mm): Reference field of R7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(165.9890 mm, 76.5810 mm): Reference field of R14
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.3860 mm, 98.5520 mm): Reference field of R5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.3860 mm, 86.3600 mm): Reference field of C9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(165.1508 mm, 67.3100 mm): Reference field of C16
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(159.8930 mm, 76.5810 mm): Reference field of R10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(170.1800 mm, 100.5840 mm): Reference field of R8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.7000 mm, 85.4710 mm): Reference field of C18
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(148.4630 mm, 104.1400 mm): Reference field of C11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(140.2080 mm, 95.5040 mm): Reference field of C14
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(142.7480 mm, 74.5490 mm): Reference field of FB1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.7960 mm, 85.4710 mm): Reference field of C19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(137.1600 mm, 74.2950 mm): Reference field of C10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(158.2420 mm, 88.9000 mm): Reference field of C6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(170.4340 mm, 116.8400 mm): Reference field of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(169.4180 mm, 81.5340 mm): Reference field of R19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(173.8630 mm, 94.4880 mm): Reference field of C12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.6260 mm, 73.7540 mm): Reference field of R17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(118.8720 mm, 90.8812 mm): Reference field of C2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(174.1170 mm, 91.9480 mm): Reference field of C13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(142.7480 mm, 79.3380 mm): Reference field of Y1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.9390 mm, 93.4720 mm): Reference field of C15
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(169.4180 mm, 79.8830 mm): Reference field of R15
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(173.7360 mm, 106.5530 mm): Reference field of D7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.5730 mm, 116.8400 mm): Reference field of J5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(138.8110 mm, 56.6420 mm): Reference field of J4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(175.3870 mm, 101.9810 mm): Reference field of R2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.4160 mm, 87.5030 mm): Reference field of C7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.4170 mm, 76.5810 mm): Reference field of R11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.4330 mm, 116.8400 mm): Reference field of J7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(116.7892 mm, 77.9272 mm): Reference field of U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.9740 mm, 107.1880 mm): Reference field of R4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(130.6830 mm, 56.8960 mm): Reference field of J3
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(182.1110 mm, 110.2910 mm): Segment of USB1 on F.Silkscreen
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(167.2690 mm, 82.8961 mm): Reference field of R19
+    @(185.5410 mm, 101.2210 mm): Segment of USB1 on F.Silkscreen
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(163.0450 mm, 74.6760 mm): Reference field of R13
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(161.5210 mm, 74.6760 mm): Reference field of R12
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(182.1180 mm, 83.2180 mm): Reference field of D5
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(158.4960 mm, 108.3480 mm): Reference field of SW2
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(182.6260 mm, 75.7860 mm): Reference field of D4
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(182.6260 mm, 89.5020 mm): Reference field of D3
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(164.9830 mm, 76.4801 mm): Reference field of C5
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(182.1180 mm, 82.3900 mm): Reference field of R18
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(167.2260 mm, 98.5520 mm): Reference field of R7
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(164.5690 mm, 74.6760 mm): Reference field of R14
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(165.6080 mm, 97.1220 mm): Reference field of R5
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(166.5991 mm, 65.3271 mm): Reference field of C16
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(158.4730 mm, 74.6760 mm): Reference field of R10
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(168.7500 mm, 98.5520 mm): Reference field of R8
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(141.6380 mm, 93.4720 mm): Reference field of C14
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(145.7960 mm, 82.8980 mm): Reference field of C19
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(170.7820 mm, 94.4880 mm): Reference field of C12
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(171.7040 mm, 93.3780 mm): Reference field of C13
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(167.2690 mm, 78.5121 mm): Reference field of R15
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(159.9970 mm, 74.6760 mm): Reference field of R11
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(169.1785 mm, 98.7893 mm): Segment of R7 on F.Silkscreen
-    @(168.7500 mm, 98.5520 mm): Reference field of R8
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(168.1335 mm, 98.7893 mm): Segment of R7 on F.Silkscreen
-    @(168.7500 mm, 98.5520 mm): Reference field of R8
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(170.7210 mm, 116.8400 mm): Reference field of J2
-    @(170.1520 mm, 116.8400 mm): Reference field of J7
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(141.6380 mm, 93.4720 mm): Reference field of C14
-    @(142.5140 mm, 93.9800 mm): Reference field of D2
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(165.6080 mm, 97.1220 mm): Reference field of R5
-    @(165.3707 mm, 96.5055 mm): Segment of R6 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(165.6080 mm, 97.1220 mm): Reference field of R5
-    @(165.3707 mm, 97.5505 mm): Segment of R6 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(158.4960 mm, 108.3480 mm): Reference field of SW2
-    @(159.8040 mm, 108.4850 mm): Segment of D1 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(158.4960 mm, 108.3480 mm): Reference field of SW2
-    @(159.0040 mm, 107.7900 mm): Reference field of D1
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(158.4960 mm, 108.3480 mm): Reference field of SW2
-    @(157.5190 mm, 108.4850 mm): Segment of D1 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(159.8560 mm, 107.4580 mm): Segment of SW2 on F.Silkscreen
-    @(159.0040 mm, 107.7900 mm): Reference field of D1
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(171.0020 mm, 95.3280 mm): Segment of U3 on F.Silkscreen
-    @(170.7820 mm, 94.4880 mm): Reference field of C12
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(144.9980 mm, 81.7880 mm): Arc of Y1 on F.Silkscreen
-    @(145.7960 mm, 82.8980 mm): Reference field of C19
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(140.4980 mm, 83.2380 mm): Segment of Y1 on F.Silkscreen
-    @(145.7960 mm, 82.8980 mm): Reference field of C19
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(167.2690 mm, 82.8961 mm): Reference field of R19
-    @(167.5063 mm, 82.4676 mm): Segment of R20 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(178.0540 mm, 85.4880 mm): Reference field of SW5
-    @(178.0540 mm, 86.3000 mm): Reference field of SW3
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(162.4285 mm, 74.9133 mm): Segment of R12 on F.Silkscreen
-    @(163.0450 mm, 74.6760 mm): Reference field of R13
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(163.0450 mm, 74.6760 mm): Reference field of R13
-    @(163.4735 mm, 74.9133 mm): Segment of R12 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(161.5210 mm, 74.6760 mm): Reference field of R12
-    @(161.9495 mm, 74.9133 mm): Segment of R11 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(161.5210 mm, 74.6760 mm): Reference field of R12
-    @(160.9045 mm, 74.9133 mm): Segment of R11 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(164.9830 mm, 76.4801 mm): Reference field of C5
-    @(164.5690 mm, 74.6760 mm): Reference field of R14
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(164.5690 mm, 74.6760 mm): Reference field of R14
-    @(163.9525 mm, 74.9133 mm): Segment of R13 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(164.5690 mm, 74.6760 mm): Reference field of R14
-    @(164.9975 mm, 74.9133 mm): Segment of R13 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(166.1231 mm, 69.4371 mm): Segment of U4 on F.Silkscreen
-    @(166.5991 mm, 65.3271 mm): Reference field of C16
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(160.4255 mm, 74.9133 mm): Segment of R10 on F.Silkscreen
-    @(159.9970 mm, 74.6760 mm): Reference field of R11
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(159.3805 mm, 74.9133 mm): Segment of R10 on F.Silkscreen
-    @(159.9970 mm, 74.6760 mm): Reference field of R11
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(152.1790 mm, 56.7690 mm): Reference field of J6
-    @(151.7320 mm, 56.7690 mm): Reference field of J4
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(158.4730 mm, 74.6760 mm): Reference field of R10
-    @(157.8565 mm, 74.9133 mm): Segment of R9 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(158.4730 mm, 74.6760 mm): Reference field of R10
-    @(158.9015 mm, 74.9133 mm): Segment of R9 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(182.1180 mm, 82.3900 mm): Reference field of R18
-    @(182.1180 mm, 83.2180 mm): Reference field of D5
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(182.1180 mm, 83.2180 mm): Reference field of D5
-    @(181.8807 mm, 83.2975 mm): Segment of R18 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(182.1180 mm, 82.3900 mm): Reference field of R18
-    @(181.3180 mm, 82.5230 mm): Segment of D5 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(182.6260 mm, 89.5020 mm): Reference field of D3
-    @(183.2940 mm, 88.3920 mm): Reference field of R16
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(178.7911 mm, 65.8351 mm): Reference field of C17
-    @(178.3571 mm, 67.8951 mm): Segment of U5 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(182.3887 mm, 75.7065 mm): Segment of R17 on F.Silkscreen
-    @(182.6260 mm, 75.7860 mm): Reference field of D4
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(171.7040 mm, 93.3780 mm): Reference field of C13
-    @(170.7820 mm, 94.4880 mm): Reference field of C12
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(171.0020 mm, 93.6580 mm): Segment of U3 on F.Silkscreen
-    @(170.7820 mm, 94.4880 mm): Reference field of C12
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(171.7040 mm, 93.3780 mm): Reference field of C13
-    @(171.0020 mm, 92.9180 mm): Segment of U3 on F.Silkscreen
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(171.7040 mm, 93.3780 mm): Reference field of C13
-    @(171.0020 mm, 93.6580 mm): Segment of U3 on F.Silkscreen
+    @(185.6910 mm, 110.2910 mm): Segment of USB1 on F.Silkscreen
 
-** Found 1 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(185.8010 mm, 121.4120 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(185.8010 mm, 121.4120 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 

@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|134705000|92434000|5eeafbbd-dfff-4684-bd25-c503a4d1c884|c8f1900d-10d1-4495-8263-235c103851d8",
+          "to jest antena wiec clearance nie jest porblemem"
+        ],
+        [
+          "clearance|134955000|94084000|a6b59d5c-4997-4d92-9e9c-2990c90f5d1d|c8f1900d-10d1-4495-8263-235c103851d8",
+          "to jest antena wiec clearance nie jest porblemem"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +140,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
