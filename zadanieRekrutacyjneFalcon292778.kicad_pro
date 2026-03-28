@@ -66,6 +66,10 @@
         [
           "clearance|134955000|94084000|a6b59d5c-4997-4d92-9e9c-2990c90f5d1d|c8f1900d-10d1-4495-8263-235c103851d8",
           "to jest antena wiec clearance nie jest porblemem"
+        ],
+        [
+          "shorting_items|134705000|92434000|ae06b2a9-f83a-4f7b-8ea2-d7c6d8f646cd|c8f1900d-10d1-4495-8263-235c103851d8",
+          "to jest antena"
         ]
       ],
       "meta": {
